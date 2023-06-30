@@ -1,6 +1,8 @@
 #ifndef _RAR_ARCHIVE_
 #define _RAR_ARCHIVE_
 
+#include "file_vector.hpp"
+
 class PPack;
 class RawRead;
 class RawWrite;
@@ -23,7 +25,7 @@ enum ADDSUBDATA_FLAGS
 // RAR5 headers must not exceed 2 MB.
 #define MAX_HEADER_SIZE_RAR5 0x200000
 
-class Archive:public File
+class Archive:public FileVector
 {
   private:
     void UpdateLatestTime(FileHeader *CurBlock);

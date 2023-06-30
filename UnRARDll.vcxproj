@@ -367,6 +367,7 @@
     <ClCompile Include="file.cpp" />
     <ClCompile Include="filefn.cpp" />
     <ClCompile Include="filestr.cpp" />
+    <ClCompile Include="file_vector.cpp" />
     <ClCompile Include="find.cpp" />
     <ClCompile Include="getbits.cpp" />
     <ClCompile Include="global.cpp">
@@ -421,6 +422,7 @@
     <ClCompile Include="volume.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="file_vector.hpp" />
     <ClInclude Include="rar.hpp" />
   </ItemGroup>
   <ItemGroup>
