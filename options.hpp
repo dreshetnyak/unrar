@@ -215,7 +215,7 @@ class RAROptions
 
 
 
-#ifdef RARDLL
+//#ifdef RARDLL
     wchar DllDestName[NM];
     int DllOpMode;
     int DllError;
@@ -223,6 +223,6 @@ class RAROptions
     UNRARCALLBACK Callback;
     CHANGEVOLPROC ChangeVolProc;
     PROCESSDATAPROC ProcessDataProc;
-#endif
+//#endif
 };
 #endif
